@@ -1,10 +1,22 @@
+<script>
+import SocialNetworks from '@/components/SocialNetworks.vue'
+export default {
+  components: {
+    SocialNetworks
+  }
+}
+</script>
+
 
 <template>
   <article class="intro-text">
     <p class="intro-hello">Hi, my name is Patrick</p>
     <h1>I am a Front-End Developer <br>and UI/UX Designer</h1>
     <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, sed omnis porro quasi illo tempore nobis optio! Quod eaque cumque illum maiores, repellat veniam non iusto. Voluptas magni quod dolores.</p>
+    <SocialNetworks />
   </article>
+
+
 </template>
 
 
